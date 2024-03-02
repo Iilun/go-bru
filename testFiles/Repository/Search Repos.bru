@@ -1,0 +1,15 @@
+meta {
+  name: Search Repos
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{baseUrl}}/search/repositories?q=react&order=desc&per_page=10
+}
+
+query {
+  q: react
+  order: desc
+  per_page: 10
+}
